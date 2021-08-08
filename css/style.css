@@ -1,20 +1,34 @@
 :root {
-  --background-color: #e5e5e5;
-  --text-color: #212121;
-  --link-text-color: #2196f3;
+  --background-color: ##e5e5e5;
+  --primary-text-color: #212121;
   --secondary-text-color: #757575;
+  --button-hover-color: #2196f3;
+  --button-hover-text-color: #ffffff;
+  --button-background-color: #f5f4fa;
 }
 
 .body {
-  background-color: #e5e5e5;
+  background-color: var(--background-color);
   font-family: roboto;
 }
 
+.nav-list .link {
+  color: var(--primary-text-color);
+}
+.nav-list .link:hover {
+  color: var(--button-hover-color);
+}
+.contacts-list .contact {
+  color: var(--secondary-text-color);
+}
+.contacts-list .contact:hover {
+  color: var(--button-hover-color);
+}
 .offers-list .button {
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+  background-color: var(--button-background-color);
 }
 .offers-list .button:hover {
-  color: #f5f4fa;
-  background-color: #2196f3;
+  color: var(--button-hover-text-color);
+  background-color: var(--button-hover-color);
 }
