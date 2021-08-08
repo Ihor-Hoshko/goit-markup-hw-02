@@ -1,5 +1,5 @@
 :root {
-  --background-color: ##e5e5e5;
+  --background-color: #e5e5e5;
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --button-hover-color: #2196f3;
@@ -9,10 +9,15 @@
 
 .body {
   background-color: var(--background-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
 }
 
 .nav-list .nav-list-link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
 }
 .nav-list .nav-list-link:hover,
 .nav-list .nav-list-link:focus {
@@ -21,17 +26,24 @@
 
 .contacts-list .contact {
   color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
 }
 .contacts-list .contact:hover,
 .contacts-list .contact:focus {
   color: var(--button-hover-color);
 }
-.offers-list .button {
+.filter-list .button {
   color: var(--primary-text-color);
   background-color: var(--button-background-color);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
-.offers-list .button:hover,
-.offers-list .button:focus {
+.filter-list .button:hover,
+.filter-list .button:focus {
   color: var(--button-hover-text-color);
   background-color: var(--button-hover-color);
 }
