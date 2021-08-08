@@ -12,23 +12,31 @@
   font-family: roboto;
 }
 
+
+}
 .nav-list .link {
   color: var(--primary-text-color);
 }
-.nav-list .link:hover {
+.nav-list .link:hover,
+.nav-list .link:focus {
   color: var(--button-hover-color);
+}
+
 }
 .contacts-list .contact {
   color: var(--secondary-text-color);
 }
-.contacts-list .contact:hover {
+.contacts-list .contact:hover,
+.contacts-list .contact:focus {
   color: var(--button-hover-color);
 }
 .offers-list .button {
   color: var(--primary-text-color);
   background-color: var(--button-background-color);
+ 
 }
-.offers-list .button:hover {
+.offers-list .button:hover,
+.offers-list .button:focus {
   color: var(--button-hover-text-color);
   background-color: var(--button-hover-color);
 }
