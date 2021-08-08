@@ -6,7 +6,7 @@
   --button-hover-text-color: #ffffff;
   --button-background-color: #f5f4fa;
 }
-
+/*MAIN*/
 .body {
   background-color: var(--background-color);
   color: var(--primary-text-color);
@@ -15,7 +15,7 @@
 ul {
   list-style: none;
 }
-
+                      /*LOGO in HEADER*/
 .logo-web-header {
   color: var(--button-hover-color);
   font-family: Raleway, cursive;
@@ -29,22 +29,29 @@ ul {
   font-size: 26px;
   line-height: 1.1;
 }
+                  /*NAVIGATION*/
 .nav-list .nav-list-link {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
+
 }
 .nav-list .nav-list-link:hover,
 .nav-list .nav-list-link:focus {
   color: var(--button-hover-color);
 }
-
+              /*CONTACTS*/
 .contacts-list .contact {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
+}
+
+.contacts-list .contact:hover,
+.contacts-list .contact:focus {
+  color: var(--button-hover-color);
 }
 .contacts-list .contacts-list-adress {
   color: var(--button-hover-text-color);
@@ -52,11 +59,8 @@ ul {
   font-size: 14px;
   line-height: 1.1;
 }
-}
-.contacts-list .contact:hover,
-.contacts-list .contact:focus {
-  color: var(--button-hover-color);
-}
+
+                        /*FILTER*/
 .filter-list .button {
   color: var(--primary-text-color);
   background-color: var(--button-background-color);
@@ -70,7 +74,7 @@ ul {
   color: var(--button-hover-text-color);
   background-color: var(--button-hover-color);
 }
-
+                            /*PROJECTS*/
 .project-list .project-list-title {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -121,6 +125,7 @@ ul {
   font-size: 16px;
   line-height: 1.1;
 }
+                      /*LOGO in FOOTER*/
 .logo-web-footer {
   color: var(--button-hover-color);
   font-family: Raleway, cursive;
