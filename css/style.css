@@ -46,6 +46,12 @@ ul {
   font-size: 14px;
   line-height: 1.1;
 }
+.contacts-list .contacts-list-adress {
+  color: var(--button-hover-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.1;
+}
 }
 .contacts-list .contact:hover,
 .contacts-list .contact:focus {
