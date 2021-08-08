@@ -30,6 +30,7 @@
   font-size: 14px;
   line-height: 1.1;
 }
+}
 .contacts-list .contact:hover,
 .contacts-list .contact:focus {
   color: var(--button-hover-color);
@@ -59,4 +60,42 @@
   font-weight: 400;
   font-size: 16;
   line-height: 1.8;
+}
+.advantage-list .advantage-list-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.advantage-list .advantage-list-text {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.work-list-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+}
+.team-list-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+}
+.team-list-name {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16;
+  line-height: 1.1;
+}
+.team-list-description {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1;
 }
