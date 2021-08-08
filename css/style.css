@@ -9,20 +9,16 @@
 
 .body {
   background-color: var(--background-color);
-  font-family: roboto;
 }
 
-
-}
-.nav-list .link {
+.nav-list .nav-list-link {
   color: var(--primary-text-color);
 }
-.nav-list .link:hover,
-.nav-list .link:focus {
+.nav-list .nav-list-link:hover,
+.nav-list .nav-list-link:focus {
   color: var(--button-hover-color);
 }
 
-}
 .contacts-list .contact {
   color: var(--secondary-text-color);
 }
@@ -33,7 +29,6 @@
 .offers-list .button {
   color: var(--primary-text-color);
   background-color: var(--button-background-color);
- 
 }
 .offers-list .button:hover,
 .offers-list .button:focus {
