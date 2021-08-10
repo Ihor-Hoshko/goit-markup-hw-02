@@ -113,20 +113,14 @@ ul {
   font-size: 14px;
   line-height: 1.7;
 }
-.work-list-title {
+.work-list-title .team-list-title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   text-align: center;
 }
-.team-list-title {
-  color: var(--primary-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1;
-  text-align: center;
-}
+
 .team-list-name {
   color: var(--primary-text-color);
   font-weight: 500;
