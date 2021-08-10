@@ -79,6 +79,10 @@ ul {
   font-size: 16px;
   line-height: 1.6;
 }
+.filter-list .button.current {
+  color: var(--button-hover-text-color);
+  background-color: var(--button-hover-color);
+}
 .filter-list .button:hover,
 .filter-list .button:focus {
   color: var(--button-hover-text-color);
