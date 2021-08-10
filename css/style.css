@@ -12,6 +12,9 @@
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
 }
+a {
+  text-decoration: none;
+}
 ul {
   list-style: none;
 }
@@ -37,6 +40,9 @@ ul {
   line-height: 1.1;
 
 }
+.nav-list .nav-list-link.current {
+  color: var(--button-hover-color);
+}
 .nav-list .nav-list-link:hover,
 .nav-list .nav-list-link:focus {
   color: var(--button-hover-color);
@@ -47,6 +53,9 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
+}
+.contacts-list .contact.current {
+  color: var(--button-hover-color);
 }
 
 .contacts-list .contact:hover,
@@ -61,6 +70,7 @@ ul {
 }
 
                         /*FILTER*/
+                     
 .filter-list .button {
   color: var(--primary-text-color);
   background-color: var(--button-background-color);
