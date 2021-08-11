@@ -72,6 +72,11 @@ ul {
   font-size: 14px;
   line-height: 1.1;
 }
+.contacts-list-adress:hover
+.contacts-list-adress:focus {
+  color: var(--button-hover-color);
+}
+
 
                         /*FILTER*/
             
