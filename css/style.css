@@ -134,7 +134,11 @@ ul {
   line-height: 1.1;
 }
                       /*LOGO in FOOTER*/
-.logo-web-footer {
+.footer-list {
+  background-color: #2F303A;
+}
+
+  .logo-web-footer {
   color: var(--button-hover-color);
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
