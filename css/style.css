@@ -21,6 +21,7 @@
   color: var(--button-hover-color);
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-decoration: none;
@@ -29,6 +30,7 @@
   color: black;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-decoration: none;
@@ -93,12 +95,13 @@
   font-size: 44px;
   font-weight: 900;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 .filter-list .button {
   color: var(--primary-text-color);
   background-color: var(--button-background-color);
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
@@ -118,7 +121,7 @@
 }
 .project-list .project-list-title {
   color: var(--primary-text-color);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 36px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -129,6 +132,9 @@
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
+}
+.advantage-list {
+  list-style: none;
 }
 .advantage-list .advantage-list-title {
   color: var(--primary-text-color);
@@ -142,15 +148,25 @@
   font-size: 14px;
   line-height: 1.7;
 }
+.work-list-img {
+  list-style: none;
+}
+.work-list-title {
+  letter-spacing: 0.03em;
+}
 .work-list-title .team-list-title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 .team-list {
   background-color: #f5f4fa;
+}
+.team-list-catalog {
+  list-style: none;
 }
 .team-list-name {
   color: var(--primary-text-color);
