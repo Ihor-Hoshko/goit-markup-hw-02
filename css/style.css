@@ -18,30 +18,27 @@ a {
 ul {
   list-style: none;
 }
-                      /*LOGO in HEADER*/
+/*LOGO in HEADER*/
 .logo-web-header {
   color: var(--button-hover-color);
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.1;
-  
-  
 }
 .logo-studio-header {
   color: black;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.1;
-  letter-spacing: 3%;
+  letter-spacing: 0, 03em;
 }
-                  /*NAVIGATION*/
+/*NAVIGATION*/
 .nav-list .nav-list-link {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0,03 em;
-
+  letter-spacing: 0, 03 em;
 }
 .nav-list .nav-list-link.current {
   color: var(--button-hover-color);
@@ -50,13 +47,13 @@ ul {
 .nav-list .nav-list-link:focus {
   color: var(--button-hover-color);
 }
-              /*CONTACTS*/
+/*CONTACTS*/
 .contacts-list .contact {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0,02 em;
+  letter-spacing: 0, 02 em;
 }
 .contacts-list .contact.current {
   color: var(--button-hover-color);
@@ -72,15 +69,15 @@ ul {
   font-size: 14px;
   line-height: 1.1;
 }
-.contacts-list-adress:hover
+.contacts-list-adress:hover,
 .contacts-list-adress:focus {
   color: var(--button-hover-color);
 }
 
-
-                        /*FILTER*/
-            
-
+/*FILTER*/
+.filter-list {
+  background-color: #2f303a;
+}
 .filter-list .button {
   color: var(--primary-text-color);
   background-color: var(--button-background-color);
@@ -88,7 +85,6 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  
 }
 .filter-list .button.current {
   color: var(--button-hover-text-color);
@@ -99,7 +95,7 @@ ul {
   color: var(--button-hover-text-color);
   background-color: var(--button-hover-color);
 }
-                            /*PROJECTS*/
+/*PROJECTS*/
 .project-list .project-list-title {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -131,7 +127,9 @@ ul {
   line-height: 1.1;
   text-align: center;
 }
-
+.team-list {
+  background-color: #f5f4fa;
+}
 .team-list-name {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -144,20 +142,14 @@ ul {
   font-size: 16px;
   line-height: 1.1;
 }
-                      /*LOGO in FOOTER*/
-.footer-list {
-  background-color: #2F303A;
+/*LOGO in FOOTER*/
+.all-footer {
+  background-color: #2f303a;
 }
 
-  .logo-web-footer {
-  color: var(--button-hover-color);
+.footer-logo-studio {
+  color: var(--button-hover-text-color);
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
-  line-height: 1.1
-}
-.logo-studio-footer {
-  color: var(--button-hover-text-color)
-  font-family: 'Raleway', sans-serif;
-  font-size: 26px;
-  line-height: 1.1
+  line-height: 1.1;
 }
