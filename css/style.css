@@ -22,7 +22,7 @@
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.1;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 .logo-studio-header {
@@ -30,7 +30,7 @@
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.1;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 /*NAVIGATION*/
@@ -42,7 +42,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 .nav-list .nav-list-link.current {
@@ -61,7 +61,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 .contacts-list .contact.current {
@@ -88,6 +88,12 @@
   background-color: #2f303a;
   list-style: none;
 }
+.filter-list-title {
+  color: var(--button-hover-text-color);
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+}
 .filter-list .button {
   color: var(--primary-text-color);
   background-color: var(--button-background-color);
@@ -95,7 +101,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
 }
 .filter-list .button.current {
   color: var(--button-hover-text-color);
@@ -115,14 +121,14 @@
   font-weight: 500;
   font-size: 36px;
   line-height: 2;
-  letter-spacing: 0.6em;
+  letter-spacing: 0.06em;
 }
 .project-list .project-list-text {
   color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
 }
 .advantage-list .advantage-list-title {
   color: var(--primary-text-color);
@@ -168,4 +174,5 @@
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.1;
+  letter-spacing: 0.03em;
 }
