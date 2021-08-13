@@ -187,6 +187,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+.all-team {
+  background-color: var(--button-background-color);
+}
+
 .team-list-catalog {
   list-style: none;
 }
