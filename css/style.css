@@ -171,6 +171,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
 }
+
 .work-list-img {
   list-style: none;
 }
@@ -185,10 +186,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
--------------------/*team*/------------------------------
-.team-list {
-  background-color: #f5f4fa;
-}
+
 .team-list-catalog {
   list-style: none;
 }
