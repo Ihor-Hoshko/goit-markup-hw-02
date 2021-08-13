@@ -93,6 +93,7 @@ body {
   background-color: #2f303a;
   list-style: none;
 }
+
 .filter-list-title {
   color: var(--button-hover-text-color);
   font-size: 44px;
@@ -101,11 +102,33 @@ body {
   text-align: center;
   line-height: 1.3;
 }
+.filter-list-all {
+  background-color: #ffffff;
+  list-style: none;
+}
+.filter-list-all .button {
+  color: var(--primary-text-color);
+  background-color: var(--button-background-color);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+.filter-list-all .button:hover,
+.filter-list-all .button:focus {
+  background-color: var(--button-hover-color);
+  color: var(--button-hover-text-color);
+}
+.filter-list-all .button.current {
+  color: var(--button-hover-text-color);
+  background-color: var(--button-hover-color);
+}
 .filter-list .button {
   color: var(--primary-text-color);
   background-color: var(--button-background-color);
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
