@@ -16,14 +16,11 @@ body {
 .link {
   text-decoration: none;
 }
-.container {
-  width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
+
 }
 .header-page {
   display: flex;
-  width: 1600px;
+  
 }
 /*LOGO in HEADER*/
 
@@ -114,7 +111,7 @@ body {
 .filter-list {
   background-color: #2f303a;
   list-style: none;
-  width: 1600px;
+  margin-right: auto;
 }
 
 .filter-list-title {
