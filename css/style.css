@@ -6,6 +6,7 @@
   --button-hover-text-color: #ffffff;
   --button-background-color: #f5f4fa;
 }
+
 /*MAIN*/
 body {
   background-color: #ffffff;
@@ -15,7 +16,15 @@ body {
 .link {
   text-decoration: none;
 }
-
+.container {
+  width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header-page {
+  display: flex;
+  width: 1600px;
+}
 /*LOGO in HEADER*/
 
 .logo-web-header {
@@ -33,10 +42,15 @@ body {
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.03em;
+  margin-right: 93px;
 }
+
 /*NAVIGATION*/
 .nav-list {
   list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .nav-list .nav-list-link {
   color: var(--primary-text-color);
@@ -45,6 +59,13 @@ body {
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
+.nav-list-link:first-child {
+  margin-left: 50px;
+}
+.nav-list-link:last-child {
+  margin-right: 0px;
+}
+
 .nav-list .nav-list-link.current {
   color: var(--button-hover-color);
 }
@@ -56,7 +77,12 @@ body {
 .contacts-list {
   list-style: none;
   font-style: normal;
+  display: flex;
 }
+.contact:first-child {
+  margin-right: 50px;
+}
+
 .contacts-list .contact {
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -88,6 +114,7 @@ body {
 .filter-list {
   background-color: #2f303a;
   list-style: none;
+  width: 1600px;
 }
 
 .filter-list-title {
